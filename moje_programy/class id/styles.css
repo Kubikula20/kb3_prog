@@ -1,0 +1,41 @@
+
+.karta {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.obrazek-box {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.obrazek-prstenu {
+    width: 100%;
+    height: auto;
+}
+
+.karta-cervena {
+    flex-direction: row-reverse;
+}
+
+.sekce-bila .karta {
+    flex-direction: row;
+}
+
+.cerna {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.bily {
+    background-color: white;
+    color: black;
+    padding: 25px;
+}
+
+.text-box {
+    flex: 1;
+}
