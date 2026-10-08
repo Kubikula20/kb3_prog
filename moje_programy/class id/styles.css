@@ -35,7 +35,29 @@
     color: black;
     padding: 25px;
 }
+.menu a {
+background-color: burlywood;
+padding: 3px;
+border: 1px blue solid;
+}
+
+.menu a:hover {
+background-color:cyan;
+}
+.menu {
+justify-content: space-around;
+border: 2px solid black;
+padding: 10px;
+display: flex;
+position: sticky;
+top: 0;
+}
+
 
 .text-box {
     flex: 1;
+}
+img:hover {
+    width: 400px;
+transition: 2s;
 }

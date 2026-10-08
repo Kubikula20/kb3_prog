@@ -1,0 +1,51 @@
+body {
+    background-color: #101815;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: #18221e;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #c9a45c;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #c9a45c;
+}
+
+.uvod {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.uvod h2 {
+    font-size: 40px;
+}
+
+.uvod a {
+    background-color: #c9a45c;
+    color: black;
+    padding: 10px;
+}
+
+.o-restauraci {
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    background-color: #18221e;
+    text-align: center;
+    padding: 20px;
+}
