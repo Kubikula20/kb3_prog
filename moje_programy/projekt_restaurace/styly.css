@@ -15,6 +15,14 @@ h1 {
     color: #c9a45c;
 }
 
+a {
+    color: orange;
+text-decoration: none;
+}
+
+a:hover {
+color: darkred;
+}
 nav a {
     color: white;
     margin: 10px;
@@ -22,6 +30,10 @@ nav a {
 
 nav a:hover {
     color: #c9a45c;
+}
+
+.menu-odkaz:hover {
+color: darkred;
 }
 
 .uvod {
@@ -42,6 +54,14 @@ nav a:hover {
 .o-restauraci {
     text-align: center;
     padding: 50px;
+}
+.fotka-restaurace {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
 }
 
 footer {
