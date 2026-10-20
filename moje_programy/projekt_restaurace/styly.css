@@ -21,7 +21,7 @@ text-decoration: none;
 }
 
 a:hover {
-color: darkred;
+color: rgb(207, 0, 0);
 }
 nav a {
     color: white;
@@ -68,4 +68,40 @@ footer {
     background-color: #18221e;
     text-align: center;
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .uvod {
+        padding: 50px 15px;
+    }
+
+    .uvod h2 {
+        font-size: 30px;
+    }
+
+    .o-restauraci {
+        padding: 25px 15px;
+    }
+
+    .fotka-restaurace {
+        width: 100%;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 15px 10px;
+    }
 }
