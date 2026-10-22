@@ -15,6 +15,19 @@ h1 {
     color: #c9a45c;
 }
 
+h2 {
+    color: #c9a45c;
+}
+
+h1 a {
+    color: #c9a45c;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #c9a45c;
+}
+
 a {
     color: orange;
 text-decoration: none;
@@ -38,7 +51,7 @@ color: darkred;
 
 .uvod {
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px 20px 20px;
 }
 
 .uvod h2 {
@@ -55,6 +68,7 @@ color: darkred;
     text-align: center;
     padding: 50px;
 }
+
 .fotka-restaurace {
     width: 80%;
     max-width: 600px;
@@ -62,6 +76,15 @@ color: darkred;
     display: block;
     margin: 25px auto;
     border-radius: 5px;
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease,
+                filter 0.4s ease;
+}
+
+.fotka-restaurace:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 25px rgba(201, 164, 92, 0.5);
+    filter: brightness(1.1);
 }
 
 footer {
