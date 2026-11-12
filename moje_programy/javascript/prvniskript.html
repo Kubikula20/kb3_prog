@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>První skript</title>
+</head>
+<body>
+   <h2 id="vysledek"></h2>
+    
+    <script>
+     let cislo1 = Number(prompt("Zadej svou hmotnost: "));
+     let cislo2 = Number(prompt("Zadej svou výšku: "));
+     let vyska = cislo2 / 100;
+     let bmi = cislo1 / (vyska * vyska  );
+     if (bmi < 18.5) {
+          document.getElementById("vysledek").innerHTML
+     = "Podváha";
+    } else if (bmi <= 24.9) {
+      document.getElementById("vysledek").innerHTML
+      = "Norma";
+     } else { 
+      document.getElementById("vysledek").innerHTML
+      = "Nadváha";
+     }
+    </script>
+</body>
+</html>
