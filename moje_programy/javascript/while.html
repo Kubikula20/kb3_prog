@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While</title>
+</head>
+<body>
+    <h2 id = "vysledek"></h2>
+    <script>
+let cislo = Math.floor(Math.random() * 100) + 1;
+let tip = Number(prompt("Uhádni číslo: "));
+
+while (tip !== cislo) {
+    tip = Number(prompt("Hádej číslo od 1 do 100:"));
+
+    if (tip < cislo) {
+        document.write("Hádané číslo je větší.<br>");
+    } else if (tip > cislo) {
+        document.write("Hádané číslo je menší.<br>");
+    } else {
+        document.write("Správně! Uhodl jsi číslo!");
+    }
+}
+    </script>
+</body>
+</html>
